@@ -42,9 +42,8 @@ main{
 footer{
   color: #fff;
   background-color:#2D2D44;
-  width: 100%;
+  width: 100vw;
   margin-top: 5em;
-  padding: 1.5em;
 }
 .content{
   grid-area: content;
