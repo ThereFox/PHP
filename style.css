@@ -4,7 +4,7 @@
 }
 body{
   background-color: #DDD;
-  font-size: 18px;
+  font-size: 32px;
   width: 100%;
 }
 a{
@@ -44,13 +44,13 @@ footer{
   background-color:#2D2D44;
   width: 100vw;
   margin-top: 5em;
+  padding: 2vh 0;
 }
 .content{
   grid-area: content;
   margin-left: 2%;
 }
 .special{
-  margin-right:6.9%;
   grid-area: special;
   display: grid;
   grid-template-rows: 0.25fr 1fr 1fr 1fr 1fr;
@@ -210,6 +210,9 @@ footer{
     margin-right: 0;
     margin-left: 0;
   }
+  body{
+    font-size: 0.75em;
+  }
   main{
     grid-gap: 5vh 0;
     grid-template-columns:1fr;
@@ -231,11 +234,5 @@ footer{
   }
   header{
     justify-content: space-between;
-  }
-  .user{
-    justify-content: flex-end;
-  }
-  .user h3{
-    visibility: hidden;
   }
 }
