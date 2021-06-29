@@ -97,6 +97,7 @@ footer{
   color:#4B34DD;
   background: #fff;
   border: 2px solid #4B34DD;
+  box-sizing: border-box;
 }
 
 .button-news{
